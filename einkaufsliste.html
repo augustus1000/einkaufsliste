@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Vorlage</title>
+    <style>
+    </style>
+    <script type="text/javascript" src="einkaufsliste.js"></script>
+</head>
+<body>
+    <h1>Einkaufsliste</h1>
+
+    <input id="einzukaufendes" type="input" placeholder="Was?">
+    <input id="einzukaufendes_menge" type="input" placeholder="Wie viel?">
+
+    <button type="button" id="myButton" onclick="einkaufsliste_bearbeiten(document.getElementById('einzukaufendes').value, document.getElementById('einzukaufendes_menge').value)">Hinzufügen</button>
+
+    <table id="show_einkaufsliste">
+        <tr>
+            <th>Produkt</th>
+            <th>Menge</th>
+        </tr>
+        <tr>
+
+        </tr>
+    </table>
+
+
+        
+</body>
+</html>
